@@ -43,26 +43,6 @@ A simple **Flask** web application that allows users to **add**, **select**, and
 
 ---
 
-## ▶️ Getting Started
-
-1. **Clone the Repository**
-```bash
-git clone https://github.com/yourusername/flask-crud-app.git
-cd flask-crud-app
-1. Create & Activate Virtual Environment
-python -m venv venv
-source venv/bin/activate   # (Linux/macOS)
-venv\Scripts\activate      # (Windows)
-3. Install Dependencies
-pip install -r requirements.txt
-4. Run the App
-python main.py
-5. Open in Browser
-Click http://127.0.0.1:5000
-
----
-
-
 🔌 Notes
 
 The app uses a SQLite database (my-top100-movies.db).
@@ -75,3 +55,25 @@ You can replace this file with your own database as long as it contains compatib
 
 This project is released under the MIT License.
 
+---
+
+## ▶️ Getting Started
+
+1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/flask-crud-app.git
+cd flask-crud-app
+
+2. Create & Activate Virtual Environment
+python -m venv venv
+source venv/bin/activate   # (Linux/macOS)
+venv\Scripts\activate      # (Windows)
+
+3. Install Dependencies
+pip install -r requirements.txt
+
+4. Run the App
+python main.py
+
+5. Open in Browser
+Click http://127.0.0.1:5000
