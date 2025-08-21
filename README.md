@@ -29,21 +29,29 @@ A simple **Flask** web application that allows users to **add**, **select**, and
 
 ## 📂 Project Structure
 
-.
 ├── main.py # Flask app with routes and database logic
+
 ├── instance # File that holds SQLite data in
+
 │ ├──my-top100-movies.db # SQLite database file
+
 ├── styles.css # Custom CSS styles
+
 ├── templates/
+
 │ ├── select.html # Select record
+
 │ ├── add.html # Add new record
+
 │ ├── edit.html # Edit record
+
 │ ├── base.html # Parent style page
+
 │ ├── index.html # Home page
 
 ---
 
-🔌 Notes
+## 🔌 Notes
 
 The app uses a SQLite database (my-top100-movies.db).
 
@@ -51,7 +59,7 @@ You can replace this file with your own database as long as it contains compatib
 
 ---
 
-📝 License
+## 📝 License
 
 This project is released under the MIT License.
 
@@ -60,8 +68,8 @@ This project is released under the MIT License.
 ## ▶️ Getting Started
 
 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/flask-crud-app.git
+bash
+git clone https://github.com/bunyaminenis/flask-crud-app.git
 cd flask-crud-app
 
 2. Create & Activate Virtual Environment
